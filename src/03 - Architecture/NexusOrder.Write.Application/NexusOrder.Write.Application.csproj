@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\02 - Commons\NexusOrder.Contracts\NexusOrder.Contracts.csproj" />
+    <ProjectReference Include="..\NexusOrder.Write.Domain\NexusOrder.Write.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

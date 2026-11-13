@@ -7,7 +7,11 @@
   <Folder Name="/02 - Commons/">
     <Project Path="src/02 - Commons/NexusOrder.Contracts/NexusOrder.Contracts.csproj" Id="8b6bfb01-90fc-4957-8d48-de4c82c5e3de" />
   </Folder>
-  <Folder Name="/03 - Architecture/" />
+  <Folder Name="/03 - Architecture/">
+    <Project Path="src/03 - Architecture/NexusOrder.Write.Application/NexusOrder.Write.Application.csproj" Id="4b8e4d57-41f8-4ac3-85b0-b3c28bf90976" />
+    <Project Path="src/03 - Architecture/NexusOrder.Write.Domain/NexusOrder.Write.Domain.csproj" Id="22c6f5df-a7be-4959-a287-505e442d767c" />
+    <Project Path="src/03 - Architecture/NexusOrder.Write.Infrastructure/NexusOrder.Write.Infrastructure.csproj" Id="c523e69e-89c6-43ea-98fa-4c7d54bebe41" />
+  </Folder>
   <Folder Name="/04 - Host/" />
   <Folder Name="/05 - Tests/" />
   <Folder Name="/06 - Frontend/" />

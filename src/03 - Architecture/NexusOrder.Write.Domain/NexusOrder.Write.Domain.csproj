@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<ProjectReference Include="..\..\02 - Commons\NexusOrder.Contracts\NexusOrder.Contracts.csproj" />
+	</ItemGroup>
+</Project>
