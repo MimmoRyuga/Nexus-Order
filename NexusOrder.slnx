@@ -4,7 +4,9 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/01 - Aspire/" />
-  <Folder Name="/02 - Commons/" />
+  <Folder Name="/02 - Commons/">
+    <Project Path="src/02 - Commons/NexusOrder.Contracts/NexusOrder.Contracts.csproj" Id="8b6bfb01-90fc-4957-8d48-de4c82c5e3de" />
+  </Folder>
   <Folder Name="/03 - Architecture/" />
   <Folder Name="/04 - Host/" />
   <Folder Name="/05 - Tests/" />
