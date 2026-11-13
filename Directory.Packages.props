@@ -1,0 +1,29 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- .NET Aspire & Microsoft Extensions (MIT License) -->
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="10.0.0" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="10.0.0" />
+    <PackageVersion Include="Aspire.Hosting.MongoDB" Version="10.0.0" />
+    <PackageVersion Include="Aspire.Hosting.RabbitMQ" Version="10.0.0" />
+    <PackageVersion Include="Aspire.Hosting.Redis" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.0" />
+
+    <!-- Persistence & Messaging (MIT / Apache 2.0 / PostgreSQL Licenses) -->
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0" />
+    <PackageVersion Include="MongoDB.Driver" Version="3.1.0" />
+    <PackageVersion Include="RabbitMQ.Client" Version="7.1.0" />
+    <PackageVersion Include="StackExchange.Redis" Version="2.8.24" />
+
+    <!-- Validation & Observability (Apache 2.0 License) -->
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.11.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.11.0" />
+  </ItemGroup>
+</Project>

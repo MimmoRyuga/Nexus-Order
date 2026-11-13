@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/00 - Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/01 - Aspire/" />
+  <Folder Name="/02 - Commons/" />
+  <Folder Name="/03 - Architecture/" />
+  <Folder Name="/04 - Host/" />
+  <Folder Name="/05 - Tests/" />
+  <Folder Name="/06 - Frontend/" />
+</Solution>
